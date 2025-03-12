@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button with Image</title>
+    <title>Styled Buttons</title>
     <style>
         button {
-            padding: 0; /* Remove default padding */
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 15px 32px; /* Padding */
+            font-size: 16px; /* Text size */
             border: none; /* Remove border */
-            background: none; /* Remove background */
-            cursor: pointer; /* Pointer cursor when hovered */
+            cursor: pointer; /* Pointer cursor */
+            border-radius: 8px; /* Rounded corners */
         }
-        img {
-            width: 100px; /* Set the image width */
-            height: 100px; /* Set the image height */
+
+        button:hover {
+            background-color: #45a049; /* Darker green when hovered */
         }
     </style>
 </head>
 <body>
+    <h1>Styled Buttons</h1>
 
-    <!-- Button with Image inside -->
     <a href="https://samdkriller.github.io/sam-games.github.io/" target="_blank">
-        <button>
-            <img src="https://samdkriller.github.io/sam-games.github.io/" alt="Game Image">
-        </button>
+        <button>Go to SZ Games/</button>
     </a>
+    
+    <br><br>
 
+    <a href="https://www.anotherexample.com" target="_blank">
+        <button>Visit Another Example</button>
+    </a>
 </body>
 </html>
