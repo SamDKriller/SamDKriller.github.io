@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Links</title>
+    <title>Button with Image</title>
+    <style>
+        button {
+            padding: 0; /* Remove default padding */
+            border: none; /* Remove border */
+            background: none; /* Remove background */
+            cursor: pointer; /* Pointer cursor when hovered */
+        }
+        img {
+            width: 100px; /* Set the image width */
+            height: 100px; /* Set the image height */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    
-    <!-- Button that links to another website -->
-    <a href="https://samdkriller.github.io/sam-games.github.io/">
-        <button>Go to SZ Games</button>
-    </a>
 
-    <br><br>
-
-    <!-- Another Button that links to another site -->
-    <a href="https://www.anotherexample.com">
-        <button>Visit Another Example</button>
+    <!-- Button with Image inside -->
+    <a href="https://samdkriller.github.io/sam-games.github.io/" target="_blank">
+        <button>
+            <img src="https://samdkriller.github.io/sam-games.github.io/" alt="Game Image">
+        </button>
     </a>
 
 </body>
